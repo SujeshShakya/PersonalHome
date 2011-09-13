@@ -1,2 +1,2 @@
-test branch file.
-Added from master branch
+test branch file.Added from master branch
+This line is added from testbranch.

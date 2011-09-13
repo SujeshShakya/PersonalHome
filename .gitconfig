@@ -1,0 +1,7 @@
+[core]
+	autocrlf = true
+[merge]
+	tool = TortoiseMerge
+[mergetool "TortoiseMerge"]
+	path = c:/Program Files/TortoiseGit/bin/TortoiseMerge.exe
+	cmd = \"c:/Program Files/TortoiseGit/bin/TortoiseMerge.exe\" /base:\"$BASE\" /mine:\"$LOCAL\" /theirs:\"$REMOTE\" /merged:\"$MERGED\"
